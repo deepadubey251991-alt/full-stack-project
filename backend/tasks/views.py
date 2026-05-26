@@ -22,3 +22,5 @@ class TaskDetailView(generics.RetrieveUpdateDestroyAPIView):
 class TaskUSer(generics.CreateAPIView):
     pass
     
+class TaskGroup(generics.CreateAPIView):
+    pass
